@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "target": "es2020",
+      "lib": ["es2020"],
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "sourceMap": true,
+      "strict": true,
+      "resolveJsonModule": true,
+      "types": [
+          "jest",
+          "./src/utils/express/type"
+      ]
+  },
+  "include": [
+      "src/**/*.ts",
+      "src/**/*.json",
+  ],
+  "exclude": ["node_modules"]
+}

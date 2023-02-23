@@ -1,0 +1,98 @@
+{
+  "validCarTaxForEachDate": [
+    {
+      "vehicle": "Car",
+      "dates": [
+        "2013-01-14 06:18:00",
+        "2013-01-14 13:32:00",
+        "2013-01-14 10:21:00"
+      ],
+      "tax": 8
+    },
+    {
+      "vehicle": "Car",
+      "dates": ["2013-01-08 06:45:00", "2013-01-08 08:14:00"],
+      "tax": 13
+    },
+    {
+      "vehicle": "Car",
+      "dates": ["2013-01-08 07:20:00", "2013-01-08 15:45:00"],
+      "tax": 18
+    },
+    {
+      "vehicle": "Car",
+      "dates": ["2013-01-08 19:30:00", "2013-01-08 20:45:00"],
+      "tax": 0
+    }
+  ],
+  "validSingleChargeRule": [
+    {
+      "vehicle": "Car",
+      "dates": [
+        "2013-01-14 07:21:00",
+        "2013-01-14 15:32:00",
+        "2013-01-14 16:21:00",
+        "2013-01-14 17:21:00"
+      ],
+      "tax": 49
+    },
+    {
+      "vehicle": "Car",
+      "dates": [
+        "2013-01-14 15:32:00",
+        "2013-01-14 16:31:00",
+        "2013-01-14 17:21:00",
+        "2013-01-14 18:20:00"
+      ],
+      "tax": 31
+    }
+  ],
+  "validTollFreeDates": [
+    {
+      "date": "2013-02-16 15:47:00",
+      "isTollFree": true
+    },
+    {
+      "date": "2013-01-01 15:47:00",
+      "isTollFree": true
+    },
+    {
+      "date": "2013-12-25 15:47:00",
+      "isTollFree": true
+    },
+    {
+      "date": "2013-01-14 15:32:00",
+      "isTollFree": false
+    }
+  ],
+  "validTollFreeVehicles": [
+    {
+      "vehicle": "Car",
+      "isTollFree": false
+    },
+    {
+      "vehicle": "Motorbike",
+      "isTollFree": true
+    },
+    {
+      "vehicle": "Tractor",
+      "isTollFree": true
+    },
+    {
+      "vehicle": "Emergency",
+      "isTollFree": true
+    },
+    {
+      "vehicle": "Diplomat",
+      "isTollFree": true
+    },
+    {
+      "vehicle": "Foreign",
+      "isTollFree": true
+    },
+    {
+      "vehicle": "Military",
+      "isTollFree": true
+    }
+  ]
+}

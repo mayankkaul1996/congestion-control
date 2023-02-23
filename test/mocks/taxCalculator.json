@@ -1,0 +1,23 @@
+{
+  "validTaxCalculator": {
+    "city": "Gothenberg",
+    "vehicle": "Car",
+    "tollDates": ["2013-01-14 07:21:00", "2013-01-14 15:32:00", "2013-01-14 16:21:00", "2013-01-14 17:21:00"],
+    "tax": 49
+  },
+  "InvalidVehicle": {
+    "city": "Gothenberg",
+    "vehicle": "Cars",
+    "tollDates": ["2013-01-14 07:21:00", "2013-01-14 15:32:00", "2013-01-14 16:21:00", "2013-01-14 17:21:00"]
+  },
+  "InvalidDates": {
+    "city": "Gothenberg",
+    "vehicle": "Car"
+  },
+  "invalidCity": {
+    "city": "Gothenbergs",
+    "vehicle": "Car",
+    "tollDates": ["2013-01-14 07:21:00", "2013-01-14 15:32:00", "2013-01-14 16:21:00", "2013-01-14 17:21:00"],
+    "tax": 49
+  }
+}
